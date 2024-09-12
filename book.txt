@@ -1,0 +1,24 @@
+lass A
+Range: 1.0.0.0 to 126.0.0.0
+Default Subnet Mask: 255.0.0.0
+Network Bits: 8 bits (first octet is the network part)
+Host Bits: 24 bits
+Total Networks: 128 networks
+Total Hosts per Network: ~16 million hosts per network
+Use: Large networks (e.g., large companies, governments)
+Class B
+Range: 128.0.0.0 to 191.255.0.0
+Default Subnet Mask: 255.255.0.0
+Network Bits: 16 bits (first two octets are the network part)
+Host Bits: 16 bits
+Total Networks: 16,384 networks
+Total Hosts per Network: ~65,000 hosts per network
+Use: Medium-sized networks (e.g., universities, ISPs)
+Class C
+Range: 192.0.0.0 to 223.255.255.0
+Default Subnet Mask: 255.255.255.0
+Network Bits: 24 bits (first three octets are the network part)
+Host Bits: 8 bits
+Total Networks: ~2 million networks
+Total Hosts per Network: 254 hosts per network
+Use: Small networks (e.g., small businesses)
